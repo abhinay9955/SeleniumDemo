@@ -47,7 +47,7 @@ for i in range(1,101):
     roll = browser.find_element_by_id('txtRegno')
     roll.clear()
 
-
+# Write result to a csv file
 with open('student.csv','w') as writefile:
     writer=csv.writer(writefile)
     for obj in ans:
